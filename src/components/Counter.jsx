@@ -10,7 +10,7 @@ class Counter extends Component {
     return (
       //   <div className="">
       //   in case need return value props, bind action
-      <div className="form-row row">
+      <div className="form-inline">
         <span className="form-control mb-2 col-6 ">
           {this.props.count.item}
         </span>
